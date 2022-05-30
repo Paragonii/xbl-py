@@ -8,14 +8,6 @@ readme = "README.md"
 homepage = "https://github.com/Paragonii/xbl-py"
 repository = "https://github.com/Paragonii/xbl-py"
 keywords = ["xbox", "xbox live", "xbl"]
-classifiers = [
-    "Environment :: Console",
-    "Framework :: xbl-py",
-    "Operating System :: OS Independent",
-    "Topic :: Software Development :: Documentation",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Software Development :: Quality Assurance",
-]
 include = [
     "LICENSE",
 ]
