@@ -1,14 +1,34 @@
 [tool.poetry]
 name = "xbl-py"
 version = "0.1.0"
-description = ""
+description = "An Xbox Live API wrapper for Python"
 authors = ["Paragon <helloworldpy103@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Paragonii/xbl-py"
+repository = "https://github.com/Paragonii/xbl-py"
+keywords = ["xbox", "xbox live", "xbl"]
+classifiers = [
+    "Environment :: Console",
+    "Framework :: xbl-py",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+include = [
+    "LICENSE",
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+
+[tool.poetry.scripts]
+xbl-py = 'xbl-py:main'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
